@@ -1,6 +1,6 @@
 name: get_file_contents_from
 description: Package that provides all contents from the directory provided.
-version: 0.0.1
+version: 0.0.3
 # author: Om Ambarkar
 homepage: https://github.com/hey-om7/FlutterPackage_getContentsFrom
 
