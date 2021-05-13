@@ -1,1 +1,1 @@
-## [0.0.4] - Readme has been updated and null safety has been added.
+## [0.0.5] - BuymeaCoffee image has been added to Readme

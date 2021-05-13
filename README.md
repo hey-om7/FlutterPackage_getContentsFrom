@@ -2,7 +2,7 @@
 
 ## Easiest Dart Package for Getting all the files and folders in the given path
 
-![https://www.buymeacoffee.com/heyom](forReadme/buymecoffee.png)
+![https://www.buymeacoffee.com/heyom](https://github.com/hey-om7/FlutterPackage_getContentsFrom/blob/main/forReadme/buymecoffee.png)
 https://www.buymeacoffee.com/heyom
 
 ---
