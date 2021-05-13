@@ -1,0 +1,6 @@
+
+done: -----Change the name from go back to something else
+done: -----Add buy me a coffee
+done: -----Add permissions of read and write
+Add null safety
+done: ----Change get current directory//or remove it

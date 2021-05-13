@@ -1,32 +1,75 @@
-# get_file_contents_from
+# Get File Contents From
 
-A new Flutter package project.
+## Easiest Dart Package for Getting all the files and folders in the given path
 
-## Extreme Simple use of the package
+![https://www.buymeacoffee.com/heyom](forReadme/buymecoffee.png)
+https://www.buymeacoffee.com/heyom
 
-Initialize the class
+---
 
+## > Adding Permissions
+
+```
+      <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.WAKE_LOCK" />
+```
+
+## > Add this in Android Manifest
+
+```
+   <application
+        ...
+        android:requestLegacyExternalStorage="true"
+        ...
+        </application>
+```
+
+---
+
+# Extreme Simple use of the package
+
+## Initialize the class
+
+```
 var getFiles=FileManager();
+```
 
-Now use all the functions provided by the package
-like:
+## Now use all the functions provided by the package like:
 
+```
 getFiles.getContentsFromPath('/storage/emulated/0/');
+```
 
-this will return a list in which the full paths of the files available will be available
+## Above code will return a list in which the full paths of the files available will be available
 
+```
 getFiles.getContentsFilenamesFromPath('/storage/emulated/0/');
+```
 
-this will return a list in which only the names of the files available will be available
+## Above line of code will return a list in which only the names of the files available will be available
+
+```
+getFiles.getCurrentDirectory();
+```
+
+## To get the current working directory
+
+```
+getFiles.pathDirectory="/storage/emulated/0/Android/";
+```
+
+## Above code depicts the way to change the current working directory/path
+
+---
 
 ## Look at the example linked to know more
 
-## Getting Started
+https://pub.dev/packages/get_file_contents_from/example
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+---
+
+## Getting Started with Flutter
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

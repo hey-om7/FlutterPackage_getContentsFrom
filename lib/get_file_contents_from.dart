@@ -30,7 +30,7 @@ class FileManager {
     return _fileNames;
   }
 
-  Future<String> goBack() async {
+  Future<String> getPreviousDirectory() async {
     String _tempDirectory = pathDirectory;
     if (_tempDirectory != "/storage/emulated/0/") {
       int _length = _tempDirectory
@@ -47,10 +47,6 @@ class FileManager {
   }
 
   Future<String> getCurrentDirectory() async {
-    if (Directory.current.path == "/") {
-      return '/storage/emulated/0/';
-    } else {
-      return '/storage/emulated/0/' + Directory.current.path;
-    }
+    return Directory.current.path;
   }
 }

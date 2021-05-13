@@ -64,7 +64,8 @@ class _MyAppStfulState extends State<MyAppStful> {
               }),
           ElevatedButton(
             onPressed: () async {
-              getAllPaths.pathDirectory = await getAllPaths.goBack();
+              getAllPaths.pathDirectory =
+                  await getAllPaths.getPreviousDirectory();
               setState(() {
                 getAllPaths.pathDirectory;
               });

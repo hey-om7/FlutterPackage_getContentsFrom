@@ -1,11 +1,11 @@
 name: get_file_contents_from
 description: Package that provides all contents from the directory provided.
-version: 0.0.3
+version: 0.0.4
 # author: Om Ambarkar
 homepage: https://github.com/hey-om7/FlutterPackage_getContentsFrom
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
